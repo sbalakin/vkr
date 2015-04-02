@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/fragment_form_text_view_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отдать друга"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        android:id="@+id/fragment_form_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_form_spinner_animal_type"
+                android:textColor="@android:color/black"
+                android:entries="@array/spinner_array" />
+
+            <TextView
+                android:id="@+id/fragment_form_text_view_input_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Заполните информацию."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@id/fragment_form_spinner_animal_type"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/fragment_form_text_view_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Кличка.         "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@id/fragment_form_text_view_input_info"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/fragment_form_edit_text_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/fragment_form_text_view_name"
+                android:layout_alignBottom="@id/fragment_form_text_view_name"
+                android:inputType="textMultiLine"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/fragment_form_text_view_breed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Порода.         "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@id/fragment_form_text_view_name"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/fragment_form_edit_text_breed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/fragment_form_text_view_breed"
+                android:layout_alignBottom="@id/fragment_form_text_view_breed"
+                android:inputType="textMultiLine"
+                android:ems="10" />
+
+
+            <TextView
+                android:id="@+id/fragment_form_text_view_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Сколько лет."
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@id/fragment_form_text_view_breed"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/fragment_form_edit_text_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/fragment_form_text_view_age"
+                android:layout_alignBottom="@id/fragment_form_text_view_age"
+                android:inputType="textMultiLine"
+                android:ems="10" />
+
+
+            <TextView
+                android:id="@+id/fragment_form_text_view_animal_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Любит.           "
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@id/fragment_form_text_view_age"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/fragment_form_edit_text_animal_like"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:layout_toRightOf="@id/fragment_form_text_view_animal_like"
+                android:layout_alignBottom="@id/fragment_form_text_view_animal_like"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/fragment_form_text_view_animal_dont_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Не любит.     "
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@id/fragment_form_text_view_animal_like"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/fragment_form_edit_text_animal_dont_like"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:layout_toRightOf="@id/fragment_form_text_view_animal_dont_like"
+                android:layout_alignBottom="@id/fragment_form_text_view_animal_dont_like"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/fragment_form_text_view_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Примечания.     "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@id/fragment_form_text_view_animal_dont_like"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/fragment_form_edit_text_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:layout_toRightOf="@id/fragment_form_text_view_note"
+                android:layout_alignBottom="@id/fragment_form_text_view_note"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/fragment_form_text_view_recommendations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Рекомендации.     "
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@id/fragment_form_text_view_note"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/fragment_form_edit_text_recommendations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:layout_toRightOf="@id/fragment_form_text_view_recommendations"
+                android:layout_alignBottom="@id/fragment_form_text_view_recommendations"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/fragment_form_text_view_vaccination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Прививки."
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@id/fragment_form_text_view_recommendations"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/fragment_form_edit_text_vaccination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:layout_toRightOf="@id/fragment_form_text_view_vaccination"
+                android:layout_alignBottom="@id/fragment_form_text_view_vaccination"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/fragment_form_text_view_health"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Здоровье."
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@id/fragment_form_text_view_vaccination"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/fragment_form_edit_text_health"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:layout_toRightOf="@id/fragment_form_text_view_health"
+                android:layout_alignBottom="@id/fragment_form_text_view_health"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/fragment_form_text_view_steriasable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Стериализован"
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@id/fragment_form_text_view_health"
+                android:textColor="@android:color/black" />
+
+            <CheckBox
+                android:id="@+id/fragment_form_check_box_steriasable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/fragment_form_text_view_steriasable"
+                android:layout_alignBottom="@id/fragment_form_text_view_steriasable"
+                android:ems="10" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton2"
+                android:src="@mipmap/camera"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/fragment_form_text_view_steriasable"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/button_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Отправить"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/imageButton2"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Map"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/button3"
+                android:layout_below="@id/button_photo"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/img"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/button3"
+                android:src="@drawable/index" />
+
+            <!--<fragment
+                class="com.google.android.gms.maps.MapFragment"
+                android:id="@+id/map"
+                android:layout_below="@id/img"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"/>-->
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</LinearLayout><!-- From: file:/E:/Project/AnimalsShelter/app/src/main/res/layout/fragment_form.xml -->
