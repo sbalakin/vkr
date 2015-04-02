@@ -3,4 +3,4 @@
     android:layout_height="match_parent" android:id="@+id/map"
     tools:context="com.example.interface3.MapsActivity"
     android:name="com.google.android.gms.maps.SupportMapFragment" />
-<!-- From: file:/E:/Project/AnimalsShelter/app/src/main/res/layout/activity_maps.xml -->
+<!-- From: file:/D:/Android/GitAnimalShelter/vkr/AnimalsShelter/app/src/main/res/layout/activity_maps.xml -->

@@ -14,14 +14,20 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.interface3.fragments.ScreenFour;
 import com.example.interface3.fragments.FragmentLenta;
 import com.example.interface3.fragments.ScreenThree;
 import com.example.interface3.fragments.FragmentForm;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -34,6 +40,19 @@ public class MainActivity extends ActionBarActivity {
     private ActionBarDrawerToggle mDrawerToggle;
     private CharSequence mDrawerTitle;
     private CharSequence mTitle;
+
+    private EditText nameEditText;
+    private EditText breedEditText;
+    private EditText loveEditText;
+    private EditText dnloveEditText;
+    private EditText ageEditText;
+    private EditText numberEditText;
+    private EditText noteEditText;
+    private EditText recommendationsEditText;
+    private EditText vaccinationEditText;
+    private EditText healthEditText;
+    private CheckBox steriasable;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -191,6 +210,30 @@ public class MainActivity extends ActionBarActivity {
         super.onConfigurationChanged(newConfig);
         // Pass any configuration change to the drawer toggles
         mDrawerToggle.onConfigurationChanged(newConfig);
+    }
+    public void OnClickSendJSONObject() throws JSONException {
+        JSONObject jsonObject = new JSONObject();
+        nameEditText = (EditText) findViewById(R.id.fragment_form_edit_text_name);
+        breedEditText = (EditText) findViewById(R.id.fragment_form_edit_text_breed);
+        loveEditText = (EditText) findViewById(R.id.fragment_form_edit_text_animal_like);
+        dnloveEditText = (EditText) findViewById(R.id.fragment_form_edit_text_animal_dont_like);
+        ageEditText = (EditText) findViewById(R.id.fragment_form_edit_text_age);
+        noteEditText = (EditText) findViewById(R.id.fragment_form_edit_text_note);
+        recommendationsEditText = (EditText) findViewById(R.id.fragment_form_edit_text_recommendations);
+        vaccinationEditText = (EditText) findViewById(R.id.fragment_form_edit_text_vaccination);
+        healthEditText = (EditText) findViewById(R.id.fragment_form_edit_text_health);
+        steriasable = (CheckBox) findViewById(R.id.fragment_form_text_view_steriasable);
+
+        jsonObject.put("name",nameEditText.getText());
+        jsonObject.put("breed",breedEditText.getText());
+        jsonObject.put("love",loveEditText.getText());
+        jsonObject.put("dnlove",dnloveEditText.getText());
+        jsonObject.put("age",ageEditText.getText());
+        jsonObject.put("note",noteEditText.getText());
+        jsonObject.put("reccomendation",recommendationsEditText.getText());
+        jsonObject.put("vaccination",vaccinationEditText.getText());
+        jsonObject.put("health",healthEditText.getText());
+        jsonObject.put("steriasable",steriasable.isChecked() ? 1 : 0);
     }
 
 }
