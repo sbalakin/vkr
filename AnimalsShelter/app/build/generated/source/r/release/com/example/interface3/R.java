@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.interface3;
+package com.example.shelter;
 
 public final class R {
     public static final class anim {
@@ -2303,7 +2303,7 @@ containing a value of this type.
             0x7f01001a, 0x7f01001b, 0x7f010088
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#background}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2313,7 +2313,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2325,7 +2325,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2337,7 +2337,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2353,7 +2353,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2369,7 +2369,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2385,7 +2385,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2401,7 +2401,7 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2411,7 +2411,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2433,7 +2433,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2443,7 +2443,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2459,7 +2459,7 @@ containing a value of this type.
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#height}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2475,7 +2475,7 @@ containing a value of this type.
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2489,7 +2489,7 @@ containing a value of this type.
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2499,7 +2499,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2509,7 +2509,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2519,7 +2519,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2529,7 +2529,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2545,7 +2545,7 @@ containing a value of this type.
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2555,7 +2555,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2573,7 +2573,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2583,7 +2583,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2599,7 +2599,7 @@ containing a value of this type.
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2609,7 +2609,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2623,7 +2623,7 @@ containing a value of this type.
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2633,7 +2633,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#title}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2647,7 +2647,7 @@ containing a value of this type.
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2724,7 +2724,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#background}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2734,7 +2734,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2746,7 +2746,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2756,7 +2756,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#height}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2772,7 +2772,7 @@ containing a value of this type.
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2782,7 +2782,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2807,7 +2807,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2817,7 +2817,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2848,7 +2848,7 @@ containing a value of this type.
             0x7f01001f, 0x7f010020, 0x7f010021
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#adSize}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#adSize}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -2862,7 +2862,7 @@ containing a value of this type.
         */
         public static final int AdsAttrs_adSize = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#adSizes}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#adSizes}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -2876,7 +2876,7 @@ containing a value of this type.
         */
         public static final int AdsAttrs_adSizes = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#adUnitId}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#adUnitId}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -2903,7 +2903,7 @@ containing a value of this type.
             0x7f010022
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#textAllCaps}
           attribute's value can be found in the {@link #CompatTextView} array.
 
 
@@ -2927,7 +2927,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010023
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#windowTransitionStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#windowTransitionStyle}
           attribute's value can be found in the {@link #CustomWalletTheme} array.
 
 
@@ -2972,7 +2972,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010028, 0x7f010029, 0x7f01002a, 0x7f01002b
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#barSize}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#barSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2988,7 +2988,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_barSize = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#color}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3003,7 +3003,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3019,7 +3019,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3035,7 +3035,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#middleBarArrowSize}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#middleBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3051,7 +3051,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_middleBarArrowSize = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3065,7 +3065,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3081,7 +3081,7 @@ containing a value of this type.
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#topBottomBarArrowSize}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#topBottomBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3158,7 +3158,7 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3168,7 +3168,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3184,7 +3184,7 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3198,7 +3198,7 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3304,7 +3304,7 @@ containing a value of this type.
             0x7f01002f, 0x7f010030, 0x7f010031
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#circleCrop}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#circleCrop}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -3318,7 +3318,7 @@ containing a value of this type.
         */
         public static final int LoadingImageView_circleCrop = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#imageAspectRatio}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#imageAspectRatio}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -3332,7 +3332,7 @@ containing a value of this type.
         */
         public static final int LoadingImageView_imageAspectRatio = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#imageAspectRatioAdjust}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#imageAspectRatioAdjust}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -3396,7 +3396,7 @@ containing a value of this type.
             0x7f01003e, 0x7f01003f, 0x7f010040, 0x7f010041
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#cameraBearing}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#cameraBearing}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3410,7 +3410,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_cameraBearing = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#cameraTargetLat}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#cameraTargetLat}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3424,7 +3424,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_cameraTargetLat = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#cameraTargetLng}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#cameraTargetLng}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3438,7 +3438,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_cameraTargetLng = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#cameraTilt}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#cameraTilt}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3452,7 +3452,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_cameraTilt = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#cameraZoom}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#cameraZoom}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3466,7 +3466,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_cameraZoom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#liteMode}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#liteMode}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3480,7 +3480,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_liteMode = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#mapType}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#mapType}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3500,7 +3500,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_mapType = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#uiCompass}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#uiCompass}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3514,7 +3514,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_uiCompass = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#uiMapToolbar}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#uiMapToolbar}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3528,7 +3528,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_uiMapToolbar = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#uiRotateGestures}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#uiRotateGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3542,7 +3542,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_uiRotateGestures = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#uiScrollGestures}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#uiScrollGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3556,7 +3556,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_uiScrollGestures = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#uiTiltGestures}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#uiTiltGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3570,7 +3570,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_uiTiltGestures = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#uiZoomControls}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#uiZoomControls}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3584,7 +3584,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_uiZoomControls = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#uiZoomGestures}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#uiZoomGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3598,7 +3598,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_uiZoomGestures = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#useViewLifecycle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#useViewLifecycle}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3612,7 +3612,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_useViewLifecycle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#zOrderOnTop}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#zOrderOnTop}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3735,7 +3735,7 @@ containing a value of this type.
             0x7f010045
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3745,7 +3745,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3759,7 +3759,7 @@ containing a value of this type.
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3851,7 +3851,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3941,7 +3941,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -3976,7 +3976,7 @@ containing a value of this type.
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -4003,7 +4003,7 @@ containing a value of this type.
             0x7f010048
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -4085,7 +4085,7 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4095,7 +4095,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_closeIcon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4105,7 +4105,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_commitIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4115,7 +4115,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_goIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4129,7 +4129,7 @@ containing a value of this type.
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4139,7 +4139,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4149,7 +4149,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_queryBackground = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4163,7 +4163,7 @@ containing a value of this type.
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4173,7 +4173,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_searchIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4183,7 +4183,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_submitBackground = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4193,7 +4193,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_suggestionRowLayout = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4280,7 +4280,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_android_popupBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#disableChildrenWhenDisabled}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#disableChildrenWhenDisabled}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -4294,7 +4294,7 @@ containing a value of this type.
         */
         public static final int Spinner_disableChildrenWhenDisabled = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#popupPromptView}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#popupPromptView}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -4304,7 +4304,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_popupPromptView = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#prompt}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -4314,7 +4314,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_prompt = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#spinnerMode}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#spinnerMode}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -4382,7 +4382,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4396,7 +4396,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4410,7 +4410,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4426,7 +4426,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4442,7 +4442,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4452,7 +4452,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4468,7 +4468,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#track}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4507,7 +4507,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompatTextAppearance_android_textSize = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#textAllCaps}
           attribute's value can be found in the {@link #SwitchCompatTextAppearance} array.
 
 
@@ -4717,7 +4717,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100ad, 0x7f0100ae, 0x7f0100af, 0x7f0100b0
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4727,7 +4727,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarDivider = 20;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4737,7 +4737,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarItemBackground = 21;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4747,7 +4747,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarPopupTheme = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4771,7 +4771,7 @@ containing a value of this type.
         */
         public static final int Theme_actionBarSize = 19;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4781,7 +4781,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarSplitStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4791,7 +4791,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4801,7 +4801,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarTabBarStyle = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4811,7 +4811,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarTabStyle = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4821,7 +4821,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarTabTextStyle = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4831,7 +4831,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4841,7 +4841,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionBarWidgetTheme = 18;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4851,7 +4851,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionButtonStyle = 44;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4861,7 +4861,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionDropDownStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4871,7 +4871,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionMenuTextAppearance = 22;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4883,7 +4883,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionMenuTextColor = 23;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4893,7 +4893,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeBackground = 26;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4903,7 +4903,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeCloseButtonStyle = 25;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4913,7 +4913,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeCloseDrawable = 28;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4923,7 +4923,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeCopyDrawable = 30;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4933,7 +4933,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeCutDrawable = 29;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4943,7 +4943,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeFindDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4953,7 +4953,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModePasteDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4963,7 +4963,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModePopupWindowStyle = 36;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4973,7 +4973,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeSelectAllDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4983,7 +4983,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeShareDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4993,7 +4993,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeSplitBackground = 27;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5003,7 +5003,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeStyle = 24;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5013,7 +5013,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionModeWebSearchDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5023,7 +5023,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionOverflowButtonStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5033,7 +5033,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionOverflowMenuStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5055,7 +5055,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5065,7 +5065,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_buttonBarButtonStyle = 46;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5075,7 +5075,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_buttonBarStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#colorAccent}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5090,7 +5090,7 @@ containing a value of this type.
         */
         public static final int Theme_colorAccent = 78;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5105,7 +5105,7 @@ containing a value of this type.
         */
         public static final int Theme_colorButtonNormal = 82;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5120,7 +5120,7 @@ containing a value of this type.
         */
         public static final int Theme_colorControlActivated = 80;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5135,7 +5135,7 @@ containing a value of this type.
         */
         public static final int Theme_colorControlHighlight = 81;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5150,7 +5150,7 @@ containing a value of this type.
         */
         public static final int Theme_colorControlNormal = 79;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#colorPrimary}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5165,7 +5165,7 @@ containing a value of this type.
         */
         public static final int Theme_colorPrimary = 76;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5180,7 +5180,7 @@ containing a value of this type.
         */
         public static final int Theme_colorPrimaryDark = 77;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5195,7 +5195,7 @@ containing a value of this type.
         */
         public static final int Theme_colorSwitchThumbNormal = 83;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5205,7 +5205,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_dividerHorizontal = 50;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#dividerVertical}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5215,7 +5215,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_dividerVertical = 49;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5225,7 +5225,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_dropDownListViewStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5241,7 +5241,7 @@ containing a value of this type.
         */
         public static final int Theme_dropdownListPreferredItemHeight = 40;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#editTextBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5251,7 +5251,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_editTextBackground = 57;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5263,7 +5263,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_editTextColor = 56;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5273,7 +5273,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_homeAsUpIndicator = 43;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5283,7 +5283,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_listChoiceBackgroundIndicator = 75;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5293,7 +5293,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_listPopupWindowStyle = 69;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5309,7 +5309,7 @@ containing a value of this type.
         */
         public static final int Theme_listPreferredItemHeight = 63;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5325,7 +5325,7 @@ containing a value of this type.
         */
         public static final int Theme_listPreferredItemHeightLarge = 65;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5341,7 +5341,7 @@ containing a value of this type.
         */
         public static final int Theme_listPreferredItemHeightSmall = 64;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5357,7 +5357,7 @@ containing a value of this type.
         */
         public static final int Theme_listPreferredItemPaddingLeft = 66;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5373,7 +5373,7 @@ containing a value of this type.
         */
         public static final int Theme_listPreferredItemPaddingRight = 67;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5383,7 +5383,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_panelBackground = 72;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5393,7 +5393,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_panelMenuListTheme = 74;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5409,7 +5409,7 @@ containing a value of this type.
         */
         public static final int Theme_panelMenuListWidth = 73;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5419,7 +5419,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_popupMenuStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5429,7 +5429,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_popupWindowStyle = 55;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5439,7 +5439,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_searchViewStyle = 62;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5449,7 +5449,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_selectableItemBackground = 47;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5459,7 +5459,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_selectableItemBackgroundBorderless = 48;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5469,7 +5469,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_spinnerDropDownItemStyle = 42;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5479,7 +5479,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_spinnerStyle = 41;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5489,7 +5489,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_switchStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5499,7 +5499,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceLargePopupMenu = 37;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5509,7 +5509,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceListItem = 70;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5519,7 +5519,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceListItemSmall = 71;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5529,7 +5529,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5539,7 +5539,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceSearchResultTitle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5549,7 +5549,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 38;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5561,7 +5561,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_textColorSearchUrl = 61;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5571,7 +5571,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_toolbarNavigationButtonStyle = 53;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5581,7 +5581,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_toolbarStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5595,7 +5595,7 @@ containing a value of this type.
         */
         public static final int Theme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5609,7 +5609,7 @@ containing a value of this type.
         */
         public static final int Theme_windowActionBarOverlay = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5623,7 +5623,7 @@ containing a value of this type.
         */
         public static final int Theme_windowActionModeOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5642,7 +5642,7 @@ containing a value of this type.
         */
         public static final int Theme_windowFixedHeightMajor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5661,7 +5661,7 @@ containing a value of this type.
         */
         public static final int Theme_windowFixedHeightMinor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5680,7 +5680,7 @@ containing a value of this type.
         */
         public static final int Theme_windowFixedWidthMajor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5771,7 +5771,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5785,7 +5785,7 @@ containing a value of this type.
         */
         public static final int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5795,7 +5795,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5811,7 +5811,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetEnd = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5827,7 +5827,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetLeft = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5843,7 +5843,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetRight = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5859,7 +5859,7 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetStart = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5875,7 +5875,7 @@ containing a value of this type.
         */
         public static final int Toolbar_maxButtonHeight = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5889,7 +5889,7 @@ containing a value of this type.
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5899,7 +5899,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5909,7 +5909,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_popupTheme = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5923,7 +5923,7 @@ containing a value of this type.
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5933,7 +5933,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_subtitleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#theme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5943,7 +5943,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_theme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#title}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5957,7 +5957,7 @@ containing a value of this type.
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5973,7 +5973,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMarginBottom = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5989,7 +5989,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMarginEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6005,7 +6005,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMarginStart = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6021,7 +6021,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMarginTop = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6037,7 +6037,7 @@ containing a value of this type.
         */
         public static final int Toolbar_titleMargins = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6070,7 +6070,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int View_android_focusable = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -6086,7 +6086,7 @@ containing a value of this type.
         */
         public static final int View_paddingEnd = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -6156,7 +6156,7 @@ containing a value of this type.
             0x7f0100c0, 0x7f0100c1, 0x7f0100c2, 0x7f0100c3
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#appTheme}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#appTheme}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -6173,7 +6173,7 @@ containing a value of this type.
         */
         public static final int WalletFragmentOptions_appTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#environment}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#environment}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -6191,7 +6191,7 @@ containing a value of this type.
         */
         public static final int WalletFragmentOptions_environment = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#fragmentMode}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#fragmentMode}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -6208,7 +6208,7 @@ containing a value of this type.
         */
         public static final int WalletFragmentOptions_fragmentMode = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#fragmentStyle}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#fragmentStyle}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -6253,7 +6253,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100cc, 0x7f0100cd, 0x7f0100ce
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#buyButtonAppearance}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#buyButtonAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6271,7 +6271,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int WalletFragmentStyle_buyButtonAppearance = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#buyButtonHeight}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#buyButtonHeight}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6296,7 +6296,7 @@ containing a value of this type.
         */
         public static final int WalletFragmentStyle_buyButtonHeight = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#buyButtonText}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#buyButtonText}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6315,7 +6315,7 @@ containing a value of this type.
         */
         public static final int WalletFragmentStyle_buyButtonText = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#buyButtonWidth}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#buyButtonWidth}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6340,7 +6340,7 @@ containing a value of this type.
         */
         public static final int WalletFragmentStyle_buyButtonWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#maskedWalletDetailsBackground}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#maskedWalletDetailsBackground}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6352,7 +6352,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#maskedWalletDetailsButtonBackground}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#maskedWalletDetailsButtonBackground}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6364,7 +6364,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#maskedWalletDetailsButtonTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#maskedWalletDetailsButtonTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6374,7 +6374,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#maskedWalletDetailsHeaderTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#maskedWalletDetailsHeaderTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6384,7 +6384,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#maskedWalletDetailsLogoImageType}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#maskedWalletDetailsLogoImageType}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6401,7 +6401,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#maskedWalletDetailsLogoTextColor}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#maskedWalletDetailsLogoTextColor}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6416,7 +6416,7 @@ containing a value of this type.
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.interface3.R.attr#maskedWalletDetailsTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.shelter.R.attr#maskedWalletDetailsTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 

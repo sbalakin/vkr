@@ -1,7 +1,7 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package com.example.interface3;
+package com.example.shelter;
 
 public final class BuildConfig {
   public static final boolean DEBUG = false;

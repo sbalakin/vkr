@@ -138,7 +138,7 @@ MERGED from com.android.support:support-v4:22.0.0:22:5
 		ADDED from AndroidManifest.xml:22:9
 	android:theme
 		ADDED from AndroidManifest.xml:24:9
-activity#com.example.interface3.MainActivity
+activity#com.example.shelter.MainActivity
 ADDED from AndroidManifest.xml:25:9
 	android:label
 		ADDED from AndroidManifest.xml:27:13

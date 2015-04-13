@@ -467,7 +467,7 @@ int id always 0x7f0b001c
 int id beginning 0x7f0b0014
 int id book_now 0x7f0b002c
 int id button3 0x7f0b0072
-int id button_photo 0x7f0b0071
+int id button_send 0x7f0b0071
 int id buyButton 0x7f0b0029
 int id buy_now 0x7f0b002d
 int id buy_with_google 0x7f0b002e

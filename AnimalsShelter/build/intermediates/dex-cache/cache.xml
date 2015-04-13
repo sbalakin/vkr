@@ -2,172 +2,172 @@
 <items version="2" >
 
     <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-39a30c715384ed0542caf23033da516132a3299c.jar" />
-    </item>
-    <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-ca38d1f19af7ec00469e1ef7a2a5b3e6cfe1bb52.jar" />
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-f6c20df6a135dfe49a5650a5f7a3d07bf08aecc8.jar" />
     </item>
     <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-70882d800c96ba31c6f9868ffaafd0c103fc0901.jar" />
-    </item>
-    <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-15a8a7002adc0ec90d332a1f782894ad94b50c94.jar" />
-    </item>
-    <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-7e9a4503130b6a149db836d46dde50e2d7fce33b.jar" />
-    </item>
-    <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-b37080b39af71b379b0de35e6ac6f258d1bf49c5.jar" />
-    </item>
-    <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-cd3025ac58718d3a40eb2a4855dcd80cea76f067.jar" />
-    </item>
-    <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="055783146ba9654a725442563be78cad303aad1f">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-c0ca4dbb2b6ccd7337d1f91a4406472e1cda5903.jar" />
-    </item>
-    <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-884efc05f40ba3dfe447d1cb31d607cac4a7417c.jar" />
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-6b6a1019311da08e31b68ea954c4883393702b95.jar" />
     </item>
     <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-e106faff4f4402596dd62725a7a6bc6f43db9d03.jar" />
-    </item>
-    <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-e9520bcd108772922b0f634a5a0a651651a0a491.jar" />
-    </item>
-    <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-5cb7a19e015212ab7b689cf1dc1ab2844a012109.jar" />
-    </item>
-    <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-916198041bf78dfeac324da1cd7a40b943c53586.jar" />
-    </item>
-    <item
-        jar="C:\Users\Дмитрий\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-40dc4ad325d057a994524d6cc24f8029dbdd6270.jar" />
-    </item>
-    <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-a83a327c67c25ba1d6a2d625ce3ad555b1cd9146.jar" />
-    </item>
-    <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-df3246c95e6753120600747352926b4e487e8339.jar" />
-    </item>
-    <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-72ffc8425cb7ae2269be73f70344e4d5a3cdd568.jar" />
-    </item>
-    <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-5fde5b0c351847100725b65b8078a6eb90b01f2e.jar" />
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-fda60fd24992cac8a2b10ceb8675d587215e056d.jar" />
     </item>
     <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-97afa89ebf05c1da571730080fd0d82674f1daea.jar" />
-    </item>
-    <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-f128380032736cfe724761e79f43755bee1ac24b.jar" />
-    </item>
-    <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-75397b718aa111d1c527e5aeba704bee77fac282.jar" />
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-fbada6ca164858135813f7011656f65c30ac8169.jar" />
     </item>
     <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-25a7f758f575d4f0d56ce4e2f8940d456398cda8.jar" />
+    </item>
+    <item
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-f35de124484885a8e4a4a0720e63f4d6a1ffaee6.jar" />
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-1a9bb780126ded1733745b51459f9d1de8424b6e.jar" />
     </item>
     <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-5012fcd097bd5410772363bde004048abb615d86.jar" />
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-8e2c57ec87608a5b5e5dc062d59bbecb665ba88d.jar" />
     </item>
     <item
-        jar="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-43aad9ccbee9f65e624f672d1ccf89b932596f5b.jar" />
+    </item>
+    <item
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="D:\Android\GitAnimalShelter\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-ecd90d9f96c796f3c144efff6625d613c3a577af.jar" />
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-6c4d49ad50e21f910f8192f0a2477496fb330a12.jar" />
+    </item>
+    <item
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-9b7ec12167043a41f342b7290b8c8c88c57bc41f.jar" />
+    </item>
+    <item
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-5ee6c40fe2efe50f4e9f5d597ad1f99242613ec1.jar" />
+    </item>
+    <item
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-ac724f100aa0e49becb4e4644e0b3da890866ac2.jar" />
+    </item>
+    <item
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-86a2255cf4ac211e14601c9de9f1a699d2bc5c6c.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudio\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-da08f75d0443109601e8af58fa4179b168fef3f8.jar" />
+    </item>
+    <item
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-a831ed3739e3b1ab769a7eec5eec8396a2161cb9.jar" />
+    </item>
+    <item
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-c262396960c2ff24af17f50e06ef026d8feb7742.jar" />
+    </item>
+    <item
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-30eee90e68150f344a098cc908c21214b2882a08.jar" />
+    </item>
+    <item
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-2d0b8809355dd6521294afe96128bacf95f9236e.jar" />
+    </item>
+    <item
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-0feb375898b2ec7957f1c152d065a10b629d6c96.jar" />
+    </item>
+    <item
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-70dbeca18ca6f9d34f86918d4d428d5054c92ca1.jar" />
+    </item>
+    <item
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-d81f8d564cce5a3af0aece0fc5c811e1635e0d07.jar" />
+    </item>
+    <item
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-05061836920c0327c88c489ec4a5b5ffe57030d0.jar" />
+    </item>
+    <item
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-761f59a13bf9923157a7d370cfdfc7430078db62.jar" />
+    </item>
+    <item
+        jar="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="E:\Diplom\vkr\AnimalsShelter\app\build\intermediates\pre-dexed\debug\classes-15d3332a115c5d4a3e313e88366e2027b03c08fd.jar" />
     </item>
 
 </items>

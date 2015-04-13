@@ -6,4 +6,4 @@
     <item android:drawable="@color/blue" android:state_checked="true"/>
     <item android:drawable="@android:color/transparent"/>
 
-</selector><!-- From: file:/D:/Android/GitAnimalShelter/vkr/AnimalsShelter/app/src/main/res/drawable/activated_background.xml -->
+</selector><!-- From: file:/E:/Diplom/vkr/AnimalsShelter/app/src/main/res/drawable/activated_background.xml -->
