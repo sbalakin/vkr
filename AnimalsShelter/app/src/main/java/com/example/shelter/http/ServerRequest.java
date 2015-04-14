@@ -18,10 +18,10 @@ public class ServerRequest {
 
     public static void sendFormToServer(final Context context, JSONObject objectRequest){
         try {
-            String url = "http://10.0.2.2:6437/json";
+            String url = "http://10.0.3.2:3333/json/";
             JSONObject jsonObjectForSending = new JSONObject();
             jsonObjectForSending.put("json", /*objectRequest.toString()*/ "HI");
-            Toast.makeText(context, jsonObjectForSending.toString(), Toast.LENGTH_LONG).show();
+            //Toast.makeText(context, jsonObjectForSending.toString(), Toast.LENGTH_LONG).show();
             JsonObjectRequest jsObjRequest = new JsonObjectRequest
                     (Request.Method.POST, url, jsonObjectForSending, new Response.Listener<JSONObject>() {
 
