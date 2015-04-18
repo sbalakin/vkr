@@ -21,6 +21,7 @@ import javax.persistence.Table;
 public class Type_Animal implements Serializable {
 
     private static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue
     private Long pk_type_animal;
@@ -32,7 +33,7 @@ public class Type_Animal implements Serializable {
     }
 
     public Type_Animal(Long pk_type_animal, String title) {
-        this.pk_type_animal = pk_type_animal;
+
         this.title = title;
     }
 

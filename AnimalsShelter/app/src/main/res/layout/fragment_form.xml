@@ -264,20 +264,20 @@
                 android:layout_below="@id/button_send"
                 android:layout_gravity="center_horizontal" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="200dp"
-                android:id="@+id/img"
-                android:layout_centerHorizontal="true"
-                android:layout_below="@id/button3"
-                android:src="@drawable/index" />
+            <!--<ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="200dp"
+               android:id="@+id/img"
+               android:layout_centerHorizontal="true"
+               android:layout_below="@id/button3"
+               android:src="@drawable/index" />-->
 
-            <!--<fragment
-                class="com.google.android.gms.maps.MapFragment"
-                android:id="@+id/map"
-                android:layout_below="@id/img"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"/>-->
+           <fragment
+               class="com.google.android.gms.maps.MapFragment"
+               android:id="@+id/map"
+               android:layout_below="@id/button3"
+               android:layout_width="match_parent"
+               android:layout_height="300dp"/>
         </RelativeLayout>
 
     </ScrollView>

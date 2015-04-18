@@ -10,19 +10,24 @@ import Shelter.Comraz.core.Shelter;
 import Shelter.Comraz.core.TempOwner;
 import Shelter.Comraz.core.Type_Animal;
 import Shelter.Comraz.svc.MyService;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-//import org.json.JSONObject;
-
+/**
+ *
+ * @author DAT
+ */
 @Controller
 public class MyController {
 
@@ -37,7 +42,15 @@ public class MyController {
         vars.addAttribute("animals", svc.animals());
 
         svc.filterGender();
+        svc.filterSterilized();
         return "animals";
+    }
+
+    @ResponseBody
+    @RequestMapping(method = RequestMethod.GET, value = "/filter")
+    public Object filter(Long v1, Integer v2, Integer v3) {
+        return svc.getListHelper(v1, v2, v3);
+        //return svc.filterAllGender(v2);
     }
 
     @RequestMapping(method = RequestMethod.GET, value = "/animals/{pk_animal}")
@@ -49,6 +62,7 @@ public class MyController {
         vars.addAttribute("type_animal", type_animal);
 
         svc.filterGender();
+        svc.filterSterilized();
         return "animal";
     }
 
@@ -63,14 +77,25 @@ public class MyController {
         return "animal_edit";
     }
 
+//    @ResponseBody
+//    @RequestMapping(method = RequestMethod.POST, value = "/animals/add")
+//    public Object TestAdd(@RequestParam String type_animal, float weight, int age
+//    ) {
+//        Type_Animal animalType = svc.findAnimalPK(type_animal);
+//
+//        Long pk_type_animal = animalType.getPk_type_animal();
+//
+//        Animal animal = svc.addAnimal(pk_type_animal, null, null, 1, null, null, weight, null, null, age, null, null);
+//        // Animal animal = svc.addAnimal(pk_type_animal, weight,age);
+//        return "redirect:/";
+//    }
     @RequestMapping(method = RequestMethod.POST, value = "/animals/add")
-    public String addNewAnimal(@RequestParam String type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String image, String description
-    ) {
+    public String addNewAnimal(@RequestParam String type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String image, String description, int sterilized) {
         Type_Animal animalType = svc.findAnimalPK(type_animal);
 
         Long pk_type_animal = animalType.getPk_type_animal();
 
-        Animal animal = svc.addAnimal(pk_type_animal, name, type, gender, color, health_status, weight, breed, relationship_with_human, age, image, description);
+        Animal animal = svc.addAnimal(pk_type_animal, name, type, gender, color, health_status, weight, breed, relationship_with_human, age, image, description, sterilized);
         // Animal animal = svc.addAnimal(pk_type_animal, weight,age);
         return "redirect:/";
     }
@@ -82,9 +107,9 @@ public class MyController {
     }
 
     @RequestMapping(method = RequestMethod.PUT, value = "/animals/{pk_animal}")
-    public String editAnimal(@PathVariable Long pk_animal, @RequestParam Long pk_type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String image, String description) {
+    public String editAnimal(@PathVariable Long pk_animal, @RequestParam Long pk_type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String image, String description, int sterilized) {
         Animal animal = svc.animal(pk_animal);
-        svc.updateAnimal(pk_animal, pk_type_animal, name, type, gender, color, health_status, weight, breed, relationship_with_human, age, image, description);
+        svc.updateAnimal(pk_animal, pk_type_animal, name, type, gender, color, health_status, weight, breed, relationship_with_human, age, image, description, sterilized);
         return "redirect:/animals/{pk_animal}";
     }
 
@@ -180,12 +205,19 @@ public class MyController {
 
     @ResponseBody
     @RequestMapping(method = RequestMethod.POST, value = "/json")
-    public Object descIndex(@RequestParam String json) throws Exception {
-        if (json == null){
-            return "nulls";
+    public Object descIndex(String type_animal, String name, Float weight, Integer age, Integer sterilized) {
+
+        if (type_animal == null) {
+            return "redirect:/null";
         }
-        
-        
-        return json;
+        Type_Animal animalType = svc.findAnimalPK(type_animal);
+
+        Long pk_type_animal = animalType.getPk_type_animal();
+
+        Animal animal = svc.addAnimal(pk_type_animal, name, null, 1, null, null, 2.3f, null, null, age, null, null, sterilized);
+
+        return animal;
+
     }
+
 }

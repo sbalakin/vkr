@@ -9,6 +9,8 @@ import Shelter.Comraz.core.Animal;
 import Shelter.Comraz.core.Shelter;
 import Shelter.Comraz.core.TempOwner;
 import Shelter.Comraz.core.Type_Animal;
+import Shelter.Comraz.core.Type_AnimalHelper;
+import java.util.ArrayList;
 import java.util.Collection;
 
 /**
@@ -31,15 +33,17 @@ public interface MyService {
 
     Shelter shelter(Long id);
 
-    public Animal addAnimal(Long pk_type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String image, String description);
+    public Animal addAnimal(Long pk_type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String image, String description, int sterilized);
 
     public Type_Animal findAnimalPK(String type_animal);
 
     public void filterGender();
 
+    public void filterSterilized();
+
     void deleteAnimal(Long pk_animal);
 
-    void updateAnimal(Long id, Long pk_type_animaln, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String image, String description);
+    void updateAnimal(Long id, Long pk_type_animaln, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String image, String description, int sterilized);
 
     public TempOwner addTempOwner(String name, int telephone, String address, int amount_of_animal, String image);
 
@@ -53,4 +57,11 @@ public interface MyService {
 
     public void updateShelter(Long pk_shelter, String name, int telephone, String address, int seat, int free_seat, String site, String email, String description, String image);
 
+    public Collection<Animal> filterAll(Long v1, int v2, int v3);
+
+    public Collection<Animal> filterAll2(Long v1);
+
+    public Collection<Animal> filterAllGender(Integer v2);
+
+    public ArrayList<Type_AnimalHelper> getListHelper(Long v1, Integer v2, Integer v3);
 }

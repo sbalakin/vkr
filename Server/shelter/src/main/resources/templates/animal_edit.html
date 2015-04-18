@@ -60,6 +60,13 @@
                         <span class="col-sm-2" >Описание:</span>
                         <textarea   class="field span12"  rows="6"  th:field="${animal.description}" ></textarea>
                     </div>
+                    <div class="caption">
+                        <span class="col-sm-2" >Стериализован: </span>
+                        <select name="sterilized" >
+                            <option th:value="1" th:selected="1 == ${animal.sterilized}">Да</option>
+                            <option th:value="2" th:selected="2 == ${animal.sterilized}">Нет</option>
+                        </select> 
+                    </div>
                     <span class="col-sm-1" > </span>
                     <div class="btn btn-default btn-file">
                         Browse <input type="file"/>

@@ -30,11 +30,9 @@ public class Animal implements Serializable {
     @GeneratedValue
     private Long pk_animal;
 
-    @Column(nullable = false, unique = false)
+    @Column(nullable = true, unique = false)
     private String name;
-
     private String type;
-
     private String color;
     private String health_status;
     private float weight;
@@ -46,11 +44,15 @@ public class Animal implements Serializable {
     private Boolean is_were_owner;
 
     private int gender;
-    @ManyToOne(fetch = FetchType.LAZY)
+    @Column(nullable = true, unique = false)
+    private int sterilized;
+
+    @ManyToOne(fetch = FetchType.EAGER, optional = false)
     @JoinColumn(name = "pk_type_animal")
-    private Type_Animal type_animal;
+    private Type_Animal typeanimal;
 
     private String showGender;
+    private String sterilized_status;
 
     public String getShowGender() {
         return showGender;
@@ -60,11 +62,19 @@ public class Animal implements Serializable {
         this.showGender = showGender;
     }
 
+    public void setSterilized_status(String sterilized_status) {
+        this.sterilized_status = sterilized_status;
+    }
+
+    public String getSterilized_status() {
+        return sterilized_status;
+    }
+
     public Animal() {
     }
 
-    public Animal(Type_Animal type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String image, String description) {
-        this.type_animal = type_animal;
+    public Animal(Type_Animal type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String image, String description, int sterilized) {
+        this.typeanimal = type_animal;
         this.name = name;
         this.type = type;
         this.gender = gender;
@@ -76,6 +86,7 @@ public class Animal implements Serializable {
         this.age = age;
         this.image = image;
         this.description = description;
+        this.sterilized = sterilized;
         // this.is_were_owner = is_were_owner;
     }
 
@@ -92,7 +103,7 @@ public class Animal implements Serializable {
     }
 
     public Type_Animal getType_animal() {
-        return this.type_animal;
+        return typeanimal;
     }
 
     public int getGender() {
@@ -139,9 +150,8 @@ public class Animal implements Serializable {
         return type;
     }
 
-    
-    public void updateAnimal(Type_Animal type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String image, String description) {
-        this.type_animal = type_animal;
+    public void updateAnimal(Type_Animal type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String image, String description, int sterilized) {
+        this.typeanimal = type_animal;
         this.name = name;
         this.type = type;
         this.gender = gender;
@@ -153,6 +163,12 @@ public class Animal implements Serializable {
         this.age = age;
         this.image = image;
         this.description = description;
+        this.sterilized = sterilized;
 
     }
+
+    public int getSterilized() {
+        return sterilized;
+    }
+
 }

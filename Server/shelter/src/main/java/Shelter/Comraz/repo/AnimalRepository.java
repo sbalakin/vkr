@@ -6,6 +6,8 @@
 package Shelter.Comraz.repo;
 
 import Shelter.Comraz.core.Animal;
+import Shelter.Comraz.core.Type_Animal;
+import java.util.Collection;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
@@ -14,4 +16,17 @@ import org.springframework.data.jpa.repository.JpaRepository;
  */
 public interface AnimalRepository extends JpaRepository<Animal, Long> {
 
+    Collection<Animal> findByGender(Integer gender);
+
+    Collection<Animal> findBySterilized(Integer sterilized);
+
+    Collection<Animal> findByTypeanimal(Type_Animal typeanimal);
+
+    Collection<Animal> findByGenderAndSterilized(Integer gender, Integer sterilized);
+
+    Collection<Animal> findByTypeanimalAndGender(Type_Animal typeanimal, Integer gender);
+
+    Collection<Animal> findByTypeanimalAndSterilized(Type_Animal typeanimal, Integer sterilized);
+
+    Collection<Animal> findByTypeanimalAndGenderAndSterilized(Type_Animal typeanimal, Integer gender, Integer sterilized);
 }
