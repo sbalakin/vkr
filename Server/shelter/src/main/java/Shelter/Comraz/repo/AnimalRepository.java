@@ -18,15 +18,15 @@ public interface AnimalRepository extends JpaRepository<Animal, Long> {
 
     Collection<Animal> findByGender(Integer gender);
 
-    Collection<Animal> findBySterilized(Integer sterilized);
+    Collection<Animal> findByAge(Integer age);
 
     Collection<Animal> findByTypeanimal(Type_Animal typeanimal);
 
-    Collection<Animal> findByGenderAndSterilized(Integer gender, Integer sterilized);
+    Collection<Animal> findByGenderAndAge(Integer gender, Integer age);
 
     Collection<Animal> findByTypeanimalAndGender(Type_Animal typeanimal, Integer gender);
 
-    Collection<Animal> findByTypeanimalAndSterilized(Type_Animal typeanimal, Integer sterilized);
+    Collection<Animal> findByTypeanimalAndAge(Type_Animal typeanimal, Integer age);
 
-    Collection<Animal> findByTypeanimalAndGenderAndSterilized(Type_Animal typeanimal, Integer gender, Integer sterilized);
+    Collection<Animal> findByTypeanimalAndGenderAndAge(Type_Animal typeanimal, Integer gender, Integer age);
 }

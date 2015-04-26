@@ -12,16 +12,16 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <img class="img-responsive" src="img/dog.jpg" alt=""/>
+                <img class="img-responsive" th:src="@{'/img/temp_owners/' + ${temp_owner.pk_temp_owner}}" />
             </div>
             <div class="col-md-5">
 
-                <form style="float: left;   " method="GET" th:action="'/temporary_owners/' + ${temp_owner.pk_temp_owner}+'/edit'" >
+                <form style="float: left;   " method="GET" th:action="'/temp_owners/' + ${temp_owner.pk_temp_owner}+'/edit'" >
 
                     <button type="submit"  class="btn btn-primary" >Редактирование</button>
                 </form>
 
-                <form  style="float: right;" method="POST" th:action="'/temporary_owners/' + ${temp_owner.pk_temp_owner}">
+                <form  style="float: right;" method="POST" th:action="'/temp_owners/' + ${temp_owner.pk_temp_owner}">
 
 
                     <input type="hidden" name="_method" value="DELETE"/>
@@ -40,5 +40,8 @@
                 </ul>
             </div>
         </div>
+        <script>
+            document.title = "Хозяин";
+        </script>
     </th:block>
 </html>

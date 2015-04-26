@@ -4,8 +4,8 @@
 
     <th:block layout:fragment="rows">
         <div class="container">
-            <form method="POST" th:action="'/temporary_owners/' + ${temp_owner.pk_temp_owner}">
-                <input type="hidden" name="_method" value="PUT" />
+            <form method="POST" th:action="'/temp_owners/' + ${temp_owner.pk_temp_owner}" enctype="multipart/form-data">
+                <input type="hidden" name="_method" value="POST" />
                 <table class="table">
 
                     <div class="caption">
@@ -28,9 +28,9 @@
 
 
                     <span class="col-sm-1" > </span>
-                    <div class="btn btn-default btn-file">
-                        Browse <input type="file" name="image" />
-                    </div>
+                    <span class="btn btn-default">
+                        Вставить картинку <input type="file" name="file" accept=".jpg,.jpeg,.png"/>
+                    </span>
 
 
                 </table>
@@ -45,6 +45,10 @@
 
 
         </div>
+
+        <script>
+            document.title = "редактирование";
+        </script>
     </th:block>
 
 </html>

@@ -4,8 +4,8 @@
 
     <th:block layout:fragment="rows">
         <div class="container">
-            <form method="POST" th:action="'/animals/' + ${animal.pk_animal}">
-                <input type="hidden" name="_method" value="PUT" />
+            <form method="POST" th:action="'/animals/' + ${animal.pk_animal}" enctype="multipart/form-data">
+                <input type="hidden" name="_method" value="POST" />
                 <table class="table">
                     <div class="caption">
                         <span class="col-sm-2" >Вид:</span>
@@ -54,7 +54,13 @@
                     </div>
                     <div class="caption">
                         <span class="col-sm-2" >Возраст:</span>
-                        <input  name="age" th:value="${animal.age}"  />
+                        <select name="age" >
+                            <option value="1" th:selected="1 == ${animal.age}">&lt; 1 года</option>
+                            <option value="2" th:selected="2 == ${animal.age}">1-3 лет</option>
+
+                            <option value="3" th:selected="3 == ${animal.age}">3-5 лет</option>
+                            <option value="4" th:selected="4 == ${animal.age}">&gt; 5 лет</option>
+                        </select>
                     </div>
                     <div class="span6">
                         <span class="col-sm-2" >Описание:</span>
@@ -68,9 +74,9 @@
                         </select> 
                     </div>
                     <span class="col-sm-1" > </span>
-                    <div class="btn btn-default btn-file">
-                        Browse <input type="file"/>
-                    </div>
+                    <span class="btn btn-default">
+                        Вставить картинку <input type="file" name="file" accept=".jpg,.jpeg,.png"/>
+                    </span>
 
 
                 </table>
@@ -85,6 +91,9 @@
 
 
         </div>
+        <script>
+            document.title = "редактирование";
+        </script>
     </th:block>
 
 </html>

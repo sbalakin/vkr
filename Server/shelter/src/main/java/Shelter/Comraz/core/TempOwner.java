@@ -31,18 +31,17 @@ public class TempOwner implements Serializable {
     private int telephone;
     private String address;
     private int amount_of_animal;
-    private String image;
 
     public TempOwner() {
     }
 
-    public TempOwner(String name, int telephone, String address, int amount_of_animal, String image) {
+    public TempOwner(String name, int telephone, String address, int amount_of_animal) {
 
         this.name = name;
         this.telephone = telephone;
         this.address = address;
         this.amount_of_animal = amount_of_animal;
-        this.image = image;
+
     }
 
     public String getName() {
@@ -77,14 +76,6 @@ public class TempOwner implements Serializable {
         this.amount_of_animal = amount_of_animal;
     }
 
-    public String getImage() {
-        return image;
-    }
-
-    public void setImage(String image) {
-        this.image = image;
-    }
-
     public Long getPk_temp_owner() {
         return pk_temp_owner;
     }
@@ -93,12 +84,12 @@ public class TempOwner implements Serializable {
         this.pk_temp_owner = pk_temp_owner;
     }
 
-    public void updateTempOwner(String name, int telephone, String address, int amount_of_animal, String image) {
+    public void updateTempOwner(String name, int telephone, String address, int amount_of_animal) {
         this.name = name;
         this.telephone = telephone;
         this.address = address;
         this.amount_of_animal = amount_of_animal;
-        this.image = image;
+
     }
 
 }

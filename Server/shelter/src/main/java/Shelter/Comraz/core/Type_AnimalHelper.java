@@ -21,7 +21,7 @@ public class Type_AnimalHelper {
     private String breed;
     private String relationship_with_human;
     private int age;
-    private String image;
+
     private String description;
     private Boolean is_were_owner;
 
@@ -32,6 +32,16 @@ public class Type_AnimalHelper {
 
     private String showGender;
     private String sterilized_status;
+
+    private String showAge;
+
+    public String getShowAge() {
+        return showAge;
+    }
+
+    public void setShowAge(String showAge) {
+        this.showAge = showAge;
+    }
 
     public String getShowGender() {
         return showGender;
@@ -63,14 +73,13 @@ public class Type_AnimalHelper {
         this.setGender(animal.getGender());
         this.setHealth_status(animal.getHealth_status());
         this.setRelationship_with_human(animal.getRelationship_with_human());
-        this.setImage(animal.getImage());
         this.setSterilized(animal.getSterilized());
         this.setWeight(animal.getWeight());
         this.setDescription(animal.getDescription());
         this.setTypeanimal(animal.getType_animal().getTitle());
     }
 
-    public Type_AnimalHelper(String type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String image, String description, int sterilized) {
+    public Type_AnimalHelper(String type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String description, int sterilized) {
         this.typeanimal = type_animal;
         this.name = name;
         this.type = type;
@@ -81,7 +90,7 @@ public class Type_AnimalHelper {
         this.breed = breed;
         this.relationship_with_human = relationship_with_human;
         this.age = age;
-        this.image = image;
+
         this.description = description;
         this.sterilized = sterilized;
         // this.is_were_owner = is_were_owner;
@@ -131,10 +140,6 @@ public class Type_AnimalHelper {
         return age;
     }
 
-    public String getImage() {
-        return image;
-    }
-
     public String getDescription() {
         return description;
     }
@@ -147,7 +152,7 @@ public class Type_AnimalHelper {
         return type;
     }
 
-    public void updateAnimal(String type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String image, String description, int sterilized) {
+    public void updateAnimal(String type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String description, int sterilized) {
         this.typeanimal = type_animal;
         this.name = name;
         this.type = type;
@@ -158,7 +163,7 @@ public class Type_AnimalHelper {
         this.breed = breed;
         this.relationship_with_human = relationship_with_human;
         this.age = age;
-        this.image = image;
+
         this.description = description;
         this.sterilized = sterilized;
 
@@ -202,10 +207,6 @@ public class Type_AnimalHelper {
 
     public void setAge(int age) {
         this.age = age;
-    }
-
-    public void setImage(String image) {
-        this.image = image;
     }
 
     public void setDescription(String description) {

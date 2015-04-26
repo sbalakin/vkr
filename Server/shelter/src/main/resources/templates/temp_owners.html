@@ -5,7 +5,7 @@
 
     <th:block layout:fragment="rows">
 
-        <form method="POST" th:action="'/temporary_owners/add'">
+        <form method="POST" th:action="'/temp_owners/add'" enctype="multipart/form-data">
 
             <table class="table">
                 <div class="caption">
@@ -23,7 +23,7 @@
                 </div>	
 
                 <span class="btn btn-default btn-file">
-                    Вставить картинку <input type="file"/>
+                    Вставить картинку <input type="file" name="file"/>
                 </span>
 
             </table>
@@ -38,23 +38,28 @@
 
         <tbody>
             <tr th:each="temp_owner: ${temp_owners}">
-                <tr class="row">
-                    <div class="col-sm-6 col-md-4">
-                        <a class="thumbnail" th:href="@{'/temporary_owners/' + ${temp_owner.pk_temp_owner}}">
-                            <img th:src="@{'/img/' + ${temp_owner.pk_temp_owner}} +'.jpg'"  />
-                            <div class="caption">
-                                <center><h4>ФИО: <strong><span th:text="${temp_owner.name}"></span></strong></h4></center>
-                                <center><h6>Номер телефона: <span th:text="${temp_owner.telephone}"></span></h6></center>
-                                <center><h6>Адрес: <span th:text="${temp_owner.address}"></span></h6></center>
-                                <center><h6>Количество животных: <span th:text="${temp_owner.amount_of_animal}"></span></h6></center>
 
-                            </div>
-                        </a>
+                <div class="col-sm-6 col-md-4">
+                    <form class="getRidOfIt" method="GET" th:action="@{'/temp_owners/' + ${temp_owner.pk_temp_owner}}">
+                        <button class="btn btn-info btn-xs">Подробнее</button> 
+                    </form>
+                    <div class="thumbnail"  >
+                        <img class="img-responsive" height="300" width="300" th:src="@{'/img/temp_owners/' + ${temp_owner.pk_temp_owner}} "  />
+                        <div class="caption">
+                            <center><h4>ФИО: <strong><span th:text="${temp_owner.name}"></span></strong></h4></center>
+                            <center><h6>Номер телефона: <span th:text="${temp_owner.telephone}"></span></h6></center>
+                            <center><h6>Адрес: <span th:text="${temp_owner.address}"></span></h6></center>
+                            <center><h6>Количество животных: <span th:text="${temp_owner.amount_of_animal}"></span></h6></center>
+
+                        </div>
                     </div>
-                </tr>
+                </div>
+
             </tr>
         </tbody>
-
+        <script>
+            document.title = "Хозяин";
+        </script>
     </th:block>
 
 </html>

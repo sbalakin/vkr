@@ -39,7 +39,7 @@ public class Animal implements Serializable {
     private String breed;
     private String relationship_with_human;
     private int age;
-    private String image;
+
     private String description;
     private Boolean is_were_owner;
 
@@ -53,6 +53,15 @@ public class Animal implements Serializable {
 
     private String showGender;
     private String sterilized_status;
+    private String showAge;
+
+    public String getShowAge() {
+        return showAge;
+    }
+
+    public void setShowAge(String showAge) {
+        this.showAge = showAge;
+    }
 
     public String getShowGender() {
         return showGender;
@@ -73,7 +82,7 @@ public class Animal implements Serializable {
     public Animal() {
     }
 
-    public Animal(Type_Animal type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String image, String description, int sterilized) {
+    public Animal(Type_Animal type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String description, int sterilized) {
         this.typeanimal = type_animal;
         this.name = name;
         this.type = type;
@@ -84,7 +93,7 @@ public class Animal implements Serializable {
         this.breed = breed;
         this.relationship_with_human = relationship_with_human;
         this.age = age;
-        this.image = image;
+
         this.description = description;
         this.sterilized = sterilized;
         // this.is_were_owner = is_were_owner;
@@ -134,10 +143,6 @@ public class Animal implements Serializable {
         return age;
     }
 
-    public String getImage() {
-        return image;
-    }
-
     public String getDescription() {
         return description;
     }
@@ -150,7 +155,7 @@ public class Animal implements Serializable {
         return type;
     }
 
-    public void updateAnimal(Type_Animal type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String image, String description, int sterilized) {
+    public void updateAnimal(Type_Animal type_animal, String name, String type, int gender, String color, String health_status, float weight, String breed, String relationship_with_human, int age, String description, int sterilized) {
         this.typeanimal = type_animal;
         this.name = name;
         this.type = type;
@@ -161,7 +166,7 @@ public class Animal implements Serializable {
         this.breed = breed;
         this.relationship_with_human = relationship_with_human;
         this.age = age;
-        this.image = image;
+
         this.description = description;
         this.sterilized = sterilized;
 

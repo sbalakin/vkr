@@ -35,12 +35,11 @@ public class Shelter implements Serializable {
     private String site;
     private String email;
     private String description;
-    private String image;
 
     public Shelter() {
     }
 
-    public Shelter(String name, int telephone, String address, int seat, int free_seat, String site, String email, String description, String image) {
+    public Shelter(String name, int telephone, String address, int seat, int free_seat, String site, String email, String description) {
         this.name = name;
         this.telephone = telephone;
         this.address = address;
@@ -49,7 +48,7 @@ public class Shelter implements Serializable {
         this.site = site;
         this.email = email;
         this.description = description;
-        this.image = image;
+
     }
 
     public Long getPk_shelter() {
@@ -124,15 +123,7 @@ public class Shelter implements Serializable {
         this.description = description;
     }
 
-    public String getImage() {
-        return image;
-    }
-
-    public void setImage(String image) {
-        this.image = image;
-    }
-
-    public void updateShelter(String name, int telephone, String address, int seat, int free_seat, String site, String email, String description, String image) {
+    public void updateShelter(String name, int telephone, String address, int seat, int free_seat, String site, String email, String description) {
         this.name = name;
         this.telephone = telephone;
         this.address = address;
@@ -141,7 +132,7 @@ public class Shelter implements Serializable {
         this.site = site;
         this.email = email;
         this.description = description;
-        this.image = image;
+
     }
 
 }
