@@ -23,7 +23,7 @@ public class ServerRequest {
             jsonObjectForSending.put("json", /*objectRequest.toString()*/ "HI");
             //Toast.makeText(context, jsonObjectForSending.toString(), Toast.LENGTH_LONG).show();
             JsonObjectRequest jsObjRequest = new JsonObjectRequest
-                    (Request.Method.POST, url, jsonObjectForSending, new Response.Listener<JSONObject>() {
+                    (Request.Method.POST, url, objectRequest, new Response.Listener<JSONObject>() {
 
                         @Override
                         public void onResponse(JSONObject response) {
